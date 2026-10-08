@@ -3,310 +3,744 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>КАХАНТА75 — Автомобили из-за рубежа</title>
+
+    <title>КАХАНТА75 — автомобили из Японии, Кореи и Китая</title>
+
+    <meta name="description"
+          content="КАХАНТА75 — покупка и доставка автомобилей из Японии, Кореи и Китая. Автоподбор, осмотр, доставка и оформление.">
 
     <link rel="stylesheet" href="affects.css">
 </head>
 
 <body>
 
-    <!-- ШАПКА -->
-    <header class="header">
+<!-- ================= HEADER ================= -->
 
-        <!-- Логотип -->
-        <a href="#home" class="logo">
-            КАХАНТА<span>75</span>
-        </a>
+<header class="header">
 
-        <!-- Кнопка меню -->
-        <button class="menu-button" id="menuButton">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
+    <div class="header-logo">
+        КАХАНТА<span>75</span>
+    </div>
 
-        <!-- Меню -->
-        <nav class="menu" id="menu">
-            <a href="#home">ГЛАВНАЯ</a>
-            <a href="#about">О НАС</a>
-            <a href="#services">УСЛУГИ</a>
-            <a href="https://vk.ru/kahanta_75">ВК</a>
-        </nav>
+    <button class="menu-button" id="menuButton">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 
-    </header>
+</header>
 
-    <!-- ГЛАВНЫЙ ЭКРАН -->
-    <section class="hero" id="home">
+<!-- ================= MENU ================= -->
 
-        <div class="hero-overlay"></div>
+<div class="menu-overlay" id="menuOverlay"></div>
 
-        <div class="hero-content">
+<nav class="side-menu" id="sideMenu">
 
-            <p class="subtitle">АВТОМОБИЛИ ИЗ-ЗА РУБЕЖА</p>
+    <button class="menu-close" id="menuClose">
+        ×
+    </button>
 
-            <h1>КАХАНТА<span>75</span></h1>
+    <div class="menu-logo">
+        КАХАНТА<span>75</span>
+    </div>
 
-            <p class="hero-text">
-                Ваш надежный партнер в покупке автомобиля
-                из-за рубежа!
-            </p>
+    <a href="#home">ГЛАВНАЯ</a>
 
-            <a href="#about" class="hero-button">
-                УЗНАТЬ БОЛЬШЕ
-            </a>
+    <a href="#about">О НАС</a>
 
+    <a href="#directions">НАШИ НАПРАВЛЕНИЯ</a>
+
+    <a href="#services">УСЛУГИ</a>
+
+    <a href="#price-info">
+        КАК ФОРМИРУЕТСЯ СТОИМОСТЬ
+    </a>
+
+    <a href="#additional">
+        ДОПОЛНИТЕЛЬНО
+    </a>
+
+    <a href="#contacts">
+        КОНТАКТЫ
+    </a>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <div class="hero-small">
+            КАХАНТА75
         </div>
 
-    </section>
-
-    <!-- О НАС -->
-    <section class="section about" id="about">
-
-        <div class="container">
-
-            <p class="section-label">О КОМПАНИИ</p>
-
-            <h2>КАХАНТА<span>75</span></h2>
-
-            <p class="main-description">
-                КАХАНТА75 — ваш надежный партнер в покупке автомобиля
-                из-за рубежа!
-            </p>
-
-            <div class="advantages">
-
-                <div class="advantage">
-                    <div class="icon">🔷</div>
-                    <p>
-                        Мы выбираем лучшие варианты автомобилей
-                        на аукционах и других торговых площадках
-                        и оперативно доставляем их своим клиентам
-                        по всей России уже более 7 лет!
-                    </p>
-                </div>
-
-                <div class="advantage">
-                    <div class="icon">🔷</div>
-                    <p>Только положительные отзывы.</p>
-                </div>
-
-                <div class="advantage">
-                    <div class="icon">🔷</div>
-                    <p>Никаких скрытых платежей и комиссий.</p>
-                </div>
-
-                <div class="advantage">
-                    <div class="icon">🔷</div>
-                    <p>
-                        Информируем обо всех этапах покупки и доставки
-                        автомобиля. Держим связь с вами 24/7.
-                    </p>
-                </div>
-
-            </div>
-
+        <div class="hero-label">
+            НАДЁЖНЫЙ ПАРТНЁР
         </div>
 
-    </section>
+        <h1>
+            АВТОМОБИЛИ
 
-    <!-- БЕСПЛАТНЫЙ РАСЧЕТ -->
-    <section class="calculation">
-
-        <div class="container calculation-content">
-
-            <div>
-                <p class="section-label">ВАШ АВТОМОБИЛЬ</p>
-
-                <h2>
-                    БЕСПЛАТНЫЙ
-
-                 РАСЧЕТ <span>СТОИМОСТИ</span>
-                </h2>
-            </div>
-
-            <a href="#contacts" class="calc-button">
-                ПОЛУЧИТЬ РАСЧЕТ
-            </a>
-
-        </div>
-
-    </section>
-
-    <!-- ЧТО МЫ ДОСТАВЛЯЕМ -->
-    <section class="section services" id="services">
-
-        <div class="container">
-
-            <p class="section-label">НАШИ НАПРАВЛЕНИЯ</p>
-
-            <h2>МЫ ДОСТАВЛЯЕМ
-
-n>В РОССИЮ</span></h2>
-
-            <div class="services-list">
-
-                <div class="service">
-                    <span>01</span>
-                    <p>
-                        Новые и подержанные автомобили
-                        с аукционов Японии
-                    </p>
-                </div>
-
-                <div class="service">
-                    <span>02</span>
-                    <p>
-                        Новые и подержанные авто
-                        от корейских производителей
-                    </p>
-
-
-</div>
-
-                <div class="service">
-                    <span>03</span>
-                    <p>
-                        Новые и подержанные автомобили
-                        с торговых площадок Китая
-                    </p>
-                </div>
-
-                <div class="service">
-                    <span>04</span>
-                    <p>
-                        Распилы и конструкторы
-                        с аукционов Японии
-                    </p>
-                </div>
-
-                <div class="service">
-                    <span>05</span>
-                    <p>
-                        Спецтехника и грузовики с аукционов Японии
-                        конструктором или под полную пошлину
-                    </p>
-                </div>
-
-                <div class="service">
-                    <span>06</span>
-                    <p>
-                        Контрактные двигатели и АКПП из Японии
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ -->
-    <section class="section additional">
-
-        <div class="container">
-
-            <p class="section-label">ДОПОЛНИТЕЛЬНО</p>
-
-            <h2>А ТАКЖЕ <span>↓</span></h2>
-
-            <div class="additional-grid">
-
-                <div class="additional-card">
-                    <span>01</span>
-                    <h3>АВТОПОДБОР</h3>
-                    <p>
-                        Предоставляем услуги автоподбора
-                        по Забайкальскому краю.
-                    </p>
-                </div>
-
-                <div class="additional-card">
-                    <span>02</span>
-                    <h3>РАЗОВЫЙ ОСМОТР</h3>
-                    <p>
-                        Осуществляем разовый осмотр
-                        автомобилей.
-                    </p>
-                </div>
-
-                <div class="additional-card">
-                    <span>03</span>
-                    <h3>АВТО НА КОМИССИЮ</h3>
-                    <p>
-                        Принимаем ваши автомобили
-                        на комиссию.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- КОНТАКТЫ -->
-    <section class="contacts" id="contacts">
-
-        <div class="container contact-content">
-
-            <p class="section-label">СВЯЗАТЬСЯ С НАМИ</p>
-
-            <h2>
-                ГОТОВЫ НАЙТИ
-
-             <span>ВАШ АВТОМОБИЛЬ?</span>
-            </h2>
-
-            <p>
-                Свяжитесь с нами для бесплатного расчета
-                стоимости автомобиля и доставки.
-            </p>
-
-            <a href="https://vk.ru/kahanta_75" class="vk-button">
-                VK
-            </a>
-
-        </div>
-
-    </section>
-
-    <!-- ПОДВАЛ -->
-    <footer>
-        <div class="footer-logo">
-            КАХАНТА<span>75</span>
-        </div>
+            ИЗ ЯПОНИИ
+        </h1>
 
         <p>
-            Ваш надежный партнер в покупке автомобиля из-за рубежа
+            Покупка, проверка и доставка автомобилей
+            из-за рубежа в Россию
         </p>
 
-        <p class="copyright">
-            © 2026 КАХАНТА75. Все права защищены.
+        <a href="#contacts" class="hero-button">
+            БЕСПЛАТНЫЙ РАСЧЁТ
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section about" id="about">
+
+    <div class="container">
+
+        <div class="section-label">
+            О НАС
+        </div>
+
+        <h2>
+            КАХАНТА75 — ВАШ НАДЁЖНЫЙ ПАРТНЁР
+        </h2>
+
+        <p class="about-text">
+            Мы выбираем лучшие варианты автомобилей
+            на аукционах и других торговых площадках
+            и оперативно доставляем их своим клиентам
+            по всей России уже более 7 лет.
         </p>
-    </footer>
 
-    <!-- СКРИПТ МЕНЮ -->
-    <script>
+        <div class="advantages">
 
-        const menuButton = document.getElementById("menuButton");
-        const menu = document.getElementById("menu");
+            <div class="advantage">
+                <span>01</span>
+                <p>Только положительные отзывы</p>
+            </div>
 
-        menuButton.addEventListener("click", () => {
-            menu.classList.toggle("active");
-            menuButton.classList.toggle("active");
-        });
+            <div class="advantage">
+                <span>02</span>
+                <p>Никаких скрытых платежей и комиссий</p>
+            </div>
 
-        // Закрытие меню после нажатия на пункт
-        document.querySelectorAll(".menu a").forEach(link => {
+            <div class="advantage">
+                <span>03</span>
+                <p>
+                    Информируем обо всех этапах покупки
+                    и доставки
+                </p>
+            </div>
 
-            link.addEventListener("click", () => {
-                menu.classList.remove("active");
-                menuButton.classList.remove("active");
-            });
+            <div class="advantage">
+                <span>04</span>
+                <p>
+                    Держим связь с вами 24/7
+                </p>
+            </div>
 
-        });
+        </div>
 
-    </script>
+    </div>
+
+</section>
+
+<!-- ================= DIRECTIONS ================= -->
+
+<section class="section directions" id="directions">
+
+    <div class="container">
+
+        <div class="section-label">
+            НАШИ НАПРАВЛЕНИЯ
+        </div>
+
+        <h2>
+            МЫ ДОСТАВЛЯЕМ
+
+            АВТО В РОССИЮ
+        </h2>
+
+        <div class="services-list">
+
+            <div class="service-item">
+
+                <span class="service-number">01</span>
+
+                <span class="service-text">
+                    Новые и подержанные автомобили
+                    с аукционов Японии
+                </span>
+
+            </div>
+
+            <div class="service-item">
+
+                <span class="service-number">02</span>
+
+                <span class="service-text">
+                    Новые и подержанные авто
+                    от корейских производителей
+  
+            </div>
+
+            <div class="service-item">
+
+                <span class="service-number">03</span>
+
+                <span class="service-text">
+                    Новые и подержанные автомобили
+                    с торговых площадок Китая
+                </span>
+
+            </div>
+
+            <div class="service-item">
+
+                <span class="service-number">04</span>
+
+                <span class="service-text">
+                    Распилы и конструкторы
+                    с аукционов Японии
+                </span>
+
+            </div>
+
+            <div class="service-item">
+
+                <span class="service-number">05</span>
+
+                <span class="service-text">
+                    Спецтехника и грузовики
+                    с аукционов Японии
+                    конструктором или под полную пошлину
+                </span>
+
+            </div>
+
+            <div class="service-item">
+
+                <span class="service-number">06</span>
+
+                <span class="service-text">
+                    Контрактные двигатели и АКПП
+                    из Японии
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SERVICES ================= -->
+
+<section class="section services" id="services">
+
+    <div class="container">
+
+        <div class="section-label">
+            УСЛУГИ
+        </div>
+
+        <h2>
+            МЫ МОЖЕМ ПОМОЧЬ
+        </h2>
+
+        <!-- Свайп на телефоне -->
+
+        <div class="services-slider">
+
+            <!-- 1 -->
+
+            <div class="service-card">
+
+                <div class="service-image">
+
+                    <img src="servise-japan.jpg"
+                         alt="Заказ автомобиля из Японии">
+
+                </div>
+
+                <div class="service-info">
+
+                    <span>
+                        АВТОМОБИЛИ
+                    </span>
+
+                    <h3>
+                        Заказ авто с Японии
+                    </h3>
+
+                    <a href="https://vk.ru/market-218822149_7970476"
+                       class="service-button">
+                        Подробнее
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- 2 -->
+
+            <div class="service-card">
+
+                <div class="service-image">
+
+                    <img src="servise-info.jpg"
+                         alt="Автоподбор">
+
+                </div>
+
+                <div class="service-info">
+
+                    <span>
+                        ПОДБОР
+                    </span>
+
+                    <h3>
+                        Автоподбор под ключ
+                    </h3>
+
+                    <a href="https://vk.ru/market-218822149_7970421"
+                       class="service-button">
+                        Подробнее
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- 3 -->
+
+            <div class="service-card">
+
+                <div class="service-image">
+
+                    <img src="service-inspection.jpg"
+                         alt="Осмотр автомобиля">
+
+                </div>
+
+                <div class="service-info">
+
+                    <span>
+                        ПРОВЕРКА
+                    </span>
+
+                    <h3>
+                        Разовый осмотр
+                    </h3>
+
+                    <a href="https://vk.ru/market-218822149_7970423"
+                       class="service-button">
+                        Подробнее
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- 4 -->
+
+            <div class="service-card">
+
+                <div class="service-image">
+
+                    <img src="service-commission.jpg"
+                         alt="Автомобиль на комиссию">
+
+                </div>
+
+                <div class="service-info">
+
+                    <span>
+                        ПРОДАЖА
+                    </span>
+
+                    <h3>
+                        Приём авто на комиссию
+                    </h3>
+
+                    <a href="https://vk.ru/market-218822149_7970477"
+                       class="service-button">
+                        Подробнее
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Подсказка только для телефона -->
+
+        <div class="swipe-hint">
+            ← Свайпните, чтобы посмотреть услуги →
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CALCULATION ================= -->
+
+<section class="calculation">
+
+    <div class="container">
+
+        <div class="calculation-box">
+
+            <div>
+
+                <div class="section-label">
+                    БЕСПЛАТНО
+                </div>
+
+                <h2>
+                    РАССЧИТАЕМ СТОИМОСТЬ
+                </h2>
+
+                <p>
+                    Рассчитаем примерную стоимость автомобиля
+                    с учётом доставки и всех необходимых расходов.
+                </p>
+
+            </div>
+
+            <a href="https://vk.ru/kahanta_75"
+               class="calculation-button">
+                ПОЛУЧИТЬ РАСЧЁТ
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PRICE INFO ================= -->
+
+<section class="section price-info" id="price-info">
+
+    <div class="container">
+
+        <div class="section-label">
+            АВТО ИЗ ЯПОНИИ
+        </div>
+
+        <h2>
+            КАК ФОРМИРУЕТСЯ
+
+            СТОИМОСТЬ АВТОМОБИЛЯ
+        </h2>
+
+        <p class="section-description">
+            Итоговая стоимость автомобиля складывается
+            из нескольких основных расходов.
+        </p>
+
+        <div class="price-table">
+
+            <div class="price-row price-head">
+                <div>№</div>
+                <div>РАСХОД</div>
+                <div>ЧТО ВХОДИТ</div>
+            </div>
+
+            <div class="price-row">
+                <div class="price-number">01</div>
+                <div class="price-title">
+                    Автомобиль
+                </div>
+                <div class="price-description">
+                    Стоимость автомобиля
+                    на японском аукционе
+                </div>
+            </div>
+
+            <div class="price-row">
+                <div class="price-number">02</div>
+                <div class="price-title">
+                    Покупка и оформление
+                </div>
+                <div class="price-description">
+                    Аукционный сбор,
+                    оформление документов
+                    и сопутствующие расходы
+                </div>
+            </div>
+
+            <div class="price-row">
+                <div class="price-number">03</div>
+                <div class="price-title">
+                    Доставка по Японии
+                </div>
+                <div class="price-description">
+                    Доставка автомобиля
+                    от аукциона до порта
+                </div>
+            </div>
+
+            <div class="price-row">
+                <div class="price-number">04</div>
+                <div class="price-title">
+                    Доставка в Россию
+                </div>
+                <div class="price-description">
+                    Морская перевозка
+                    автомобиля из Японии
+                </div>
+            </div>
+
+            <div class="price-row">
+                <div class="price-number">05</div>
+                <div class="price-title">
+                    Таможенные платежи
+                </div>
+                <div class="price-description">
+                    Таможенные платежи,
+                    которые рассчитываются
+                    отдельно для каждого автомобиля
+                </div>
+            </div>
+
+            <div class="price-row">
+                <div class="price-number">06</div>
+                <div class="price-title">
+                    Услуги брокера
+                </div>
+                <div class="price-description">
+                    Таможенное оформление
+                    и работа брокера
+                </div>
+            </div>
+
+            <div class="price-row">
+                <div class="price-number">07</div>
+                <div class="price-title">
+                    Хранение на СВХ
+                </div>
+                <div class="price-description">
+                    Хранение автомобиля
+                    на специальной площадке
+                </div>
+            </div>
+
+            <div class="price-row">
+                <div class="price-number">08</div>
+                <div class="price-title">
+                    Комиссия компании
+                </div>
+                <div class="price-description">
+                    Комиссия за организацию
+                    покупки и доставки
+                </div>
+            </div>
+
+            <div class="price-row">
+                <div class="price-number">09</div>
+                <div class="price-title">
+                    Доставка по России
+                </div>
+                <div class="price-description">
+                    Доставка автомобиля
+                    автовозом до вашего города
+                </div>
+            </div>
+
+            <div class="price-total">
+
+                <div class="price-total-number"></div>
+                <div>
+                    <span>ИТОГОВАЯ СТОИМОСТЬ</span>
+
+                    <p>
+                        Цена автомобиля + все необходимые
+                        расходы по покупке, доставке
+                        и оформлению.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= ADDITIONAL ================= -->
+
+<section class="section additional" id="additional">
+
+    <div class="container">
+
+        <div class="section-label">
+            ДОПОЛНИТЕЛЬНО
+        </div>
+
+        <h2>
+            ТАКЖЕ МЫ
+        </h2>
+
+        <div class="additional-list">
+
+            <div>
+                <span>01</span>
+                <p>
+                    Предоставляем услуги автоподбора
+                    по Забайкальскому краю
+                </p>
+            </div>
+
+            <div>
+                <span>02</span>
+                <p>
+                    Осуществляем разовый осмотр автомобилей
+                </p>
+            </div>
+
+            <div>
+                <span>03</span>
+                <p>
+                    Принимаем ваши автомобили на комиссию
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACTS ================= -->
+
+<section class="section contacts" id="contacts">
+
+    <div class="container">
+
+        <div class="section-label">
+            ЕСТЬ ВОПРОСЫ?
+        </div>
+
+        <h2>
+            МЫ ВСЕГДА
+
+            НА СВЯЗИ
+        </h2>
+
+        <p class="contacts-text">
+
+            Если у вас есть вопросы по выбору,
+            покупке и доставке автомобиля из Японии,
+            вы всегда можете позвонить нам
+            и получить консульт
+
+
+ацию и бесплатный
+            расчёт стоимости.
+
+        </p>
+
+        <div class="contact-box">
+
+            <div class="contact-number">
+                +7 (914) 434-56-28
+            </div>
+
+            <div class="contact-name">
+                Дмитрий
+            </div>
+
+        </div>
+
+        <div class="contact-buttons">
+
+            <a href="tel:+79144345628"
+               class="contact-button">
+                ПОЗВОНИТЬ
+            </a>
+
+            <a href="https://vk.ru/kahanta_75"
+               class="contact-button">
+                ВКОНТАКТЕ
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        КАХАНТА<span>75</span>
+    </div>
+
+    <p>
+        Ваш надёжный партнёр в покупке
+        автомобиля из-за рубежа
+    </p>
+
+    <div class="footer-copy">
+        © 2026 КАХАНТА75
+    </div>
+
+</footer>
+
+<!-- ================= SCRIPT ================= -->
+
+<script>
+
+const menuButton = document.getElementById("menuButton");
+const menuClose = document.getElementById("menuClose");
+const sideMenu = document.getElementById("sideMenu");
+const menuOverlay = document.getElementById("menuOverlay");
+
+function openMenu() {
+
+    sideMenu.classList.add("active");
+    menuOverlay.classList.add("active");
+
+}
+
+function closeMenu() {
+
+    sideMenu.classList.remove("active");
+    menuOverlay.classList.remove("active");
+
+}
+
+menuButton.addEventListener("click", openMenu);
+
+menuClose.addEventListener("click", closeMenu);
+
+menuOverlay.addEventListener("click", closeMenu);
+
+document.querySelectorAll(".side-menu a").forEach(link => {
+
+    link.addEventListener("click", closeMenu);
+
+});
+
+</script>
 
 </body>
-</html>
+</html>/span
+
